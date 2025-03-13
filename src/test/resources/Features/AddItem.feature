@@ -1,4 +1,4 @@
-Feature: Cart
+Feature: Add Item
 
   Background: The user logs in the system
     Given I am displayed with the Swag Labs title "SwagLabsTitle" data
@@ -8,8 +8,8 @@ Feature: Cart
     And I click the Login button
     Then I am displayed with the Products "ProductsHeading" heading data
     And The filter dropdown
-  @Add
-  Scenario: The User Adds An Item To The Cart
+  
+  Scenario: The User Adds The Sauce Labs Backpack Item To The Cart
     When I click the Add to cart button of the Sauce Labs Backpack item
     Then the shopping cart badge appears
     When I click the Cart Icon

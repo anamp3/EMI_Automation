@@ -2,7 +2,7 @@ package PageObjects;
 
 import org.openqa.selenium.By;
 
-public class CartObjects {
+public class AddItemObjects {
     public static final By slBackpack_btn = By.xpath("//button[@id='add-to-cart-sauce-labs-backpack']");
     public static final By cartBadge = By.xpath("//span[@class='shopping_cart_badge']");
     public static final By shoppingCart = By.xpath("//a[@class='shopping_cart_link']");
