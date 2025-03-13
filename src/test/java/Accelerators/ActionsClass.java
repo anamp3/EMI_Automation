@@ -31,7 +31,7 @@ public class ActionsClass extends Accelerators.BaseClass {
 
     public static String sTestCaseName;
     public static final String EnvironmentURL = Utils.getProperty("SiteURL");
-    public static final String testData = System.getProperty("user.dir")+ Utils.getProperty("ExcelPath");
+    public static final String testDataSheet = System.getProperty("user.dir")+ Utils.getProperty("");
 
     public static void selectMonth(String monthValue) {
 

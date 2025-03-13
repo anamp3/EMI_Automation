@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         glue = {"GlueCode", "Hooks"},
         plugin = {"pretty", "html:src/test/resources/cucumber-reports.html"},
         monochrome = true,
-        tags = ""
+        tags = "@Add"
 )
 
 @RunWith(Cucumber.class)
