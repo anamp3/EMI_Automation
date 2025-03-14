@@ -9,3 +9,10 @@ Feature: Login
     And I click the Login button
     Then I am displayed with the Products "ProductsHeading" heading data
     And The filter dropdown
+
+  Scenario: The User Logs In With Incorrect Username
+    When I enter then Incorrect Username "IncorrectUsername" data
+    And I enter the Password "Password" data
+    And I click the Login button
+    Then the Error Message "ErrorMessage" is displayed
+    And the user is still on the Login Page

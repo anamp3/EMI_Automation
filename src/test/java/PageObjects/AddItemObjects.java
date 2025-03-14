@@ -10,4 +10,7 @@ public class AddItemObjects {
     public static final By cartTitle = By.xpath("//span[@class='title']");
     public static final By cartItemContainer = By.xpath("//div[@class='cart_list']");
     public static final By slBackpack_hdng = By.xpath("//a[@id='item_4_title_link']//div[@class='inventory_item_name']");
+
+    public static final By priceLohi = By.xpath("//option[@value='lohi']");
+    public static final By prices = By.xpath("//div[@class='inventory_item_price']");
 }

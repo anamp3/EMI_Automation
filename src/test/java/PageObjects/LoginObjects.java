@@ -10,4 +10,6 @@ public class LoginObjects {
 
     public static final By product_title = By.xpath("//span[@class='title']");
     public static final By sorting_drp = By.xpath("//select[@class='product_sort_container']");
+
+    public static final By errorMessage = By.xpath("//h3");
 }
